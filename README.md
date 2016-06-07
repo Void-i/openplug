@@ -1,5 +1,7 @@
 Open source, lightweight user script for plug.dj.
 
+If you use any of the code contained within this repository, please provide proper credit in your source files!
+
 <br>
 
 ----
