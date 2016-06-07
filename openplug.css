@@ -1,0 +1,74 @@
+.openplug {
+    color: rgb(238, 238, 238);
+    position: absolute;
+    width: 165px;
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.1) 0%, rgb(10, 10, 10) 85%);
+    right: 355px;
+    top: 64px;
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 11;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+}
+.op-row:nth-of-type(2) {
+    padding-top: 3px;
+}
+.op-row:nth-of-type(2) > .icon-check-blue {
+    top: 6px;
+}
+.op-row {
+    cursor: pointer;
+    position: relative;
+}
+.op-row:hover {
+    padding-left: 5px;
+}
+.row-text {
+    padding-left: 5px;
+    height: 28px;
+}
+.op-title {
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    padding-bottom: 2px;
+    width: 103%;
+    background-color: rgb(28, 31, 37);
+    left: 0px;
+    top: -1px;
+    position: relative;
+    cursor: pointer;
+}
+.title-variant {
+    color: rgb(0, 197, 250);
+}
+.title-text {
+    padding-left: 3px;
+    vertical-align: middle;
+}
+.app-header {
+    z-index: 10 !important;
+}
+.op-row > .icon-check-blue {
+    position: absolute;
+    display: none;
+    right: 10px;
+    top: 3px;
+}
+.oplug-icon {
+    position: absolute;
+    height: 38px;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+#chat .from.oplug .un{
+    color: rgb(0, 197, 250);
+}
+#chat .from.oplug .un::before {
+    content: 'OPEN';
+    color: rgb(238, 238, 238);
+}

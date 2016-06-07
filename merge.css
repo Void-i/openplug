@@ -1,0 +1,65 @@
+
+@font-face {
+  font-family: 'Merge';
+    src:  url('Merge.ttf.woff') format('woff'),
+    url('Merge.ttf.svg#Merge') format('svg'),
+    url('Merge.ttf.eot'),
+    url('Merge.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}.examplefontl {
+  font-family: 'Merge';  
+  color: black;
+}
+.examplefont {
+  padding-bottom: 2em;
+  overflow: hidden; 
+  text-align: center;
+}
+.examplefont div {
+  float: left;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 1.25em;
+  height: 2em;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  font-size: 3.2em; 
+}
+.examplefont div .defaultC {
+  color: #ccc;
+  font-family: arial, sans-serif;
+  font-size: .4em;
+  display: block;
+}
+*{margin:0;padding:0;}
+body{margin:0px;padding:0px;background:#FFFFFF url(images/bgtile.gif?1) repeat-x;font-family:Arial, Helvetica, sans-serif;}
+#header{background:url(images/headertile.gif);height:73px;margin:0px;overflow:hidden;}
+#head{width:707px;float:left;height:31px;margin:39px 0 0 0;padding:0px;color:#ffffff;font-size:15px;border-bottom:1px solid #c94040;overflow:hidden;}
+#head a{color:#ffffff;text-decoration:none;}
+#headspan1{float:left;}
+.container{width:994px;margin:0 auto;padding:0px;overflow:hidden;}
+#content{width:734px;margin:5px 0px 0px 5px;float:left;padding:0px;font-size:12px;display:inline;color:#868e8e;overflow:hidden;}
+.fontbox{background:url(images/fontboxtile.gif);width:734px;margin:0 0 18px 0;padding:0;overflow:hidden;}
+.fontboxtop{background:url(images/fontboxtop.gif) no-repeat top left;height:18px;font-size:12px;color:#373d3d;width:718px;padding:8px;margin:0;overflow:hidden;}
+.fontboxtop a{color:#373d3d;text-decoration:none;}
+.fontboxspan1{background:url(images/free.gif) no-repeat;padding:2px 0 2px 42px;float:left;}
+h6{background:url(images/logo.gif) top left no-repeat;width:230px;height:73px;margin:0px 0px 0px 7px;float:left;}
+h6 a{display:block;height:73px;}
+h6 a span{display:none;}
+h1{display:inline;font-size:12px;font-weight:bold;color:#546060;padding:0px;float:left;}
+.btn{border:0;margin:0;background:url('images/button.gif');background-repeat:repeat-x;color:#fff;width:127px;height:28px;font-size:17px;}
+.inputsubtmi{border:1px solid #e1ebeb;border-bottom:2px solid #c7d1d1;padding:6px;margin:0 0 8px 0;}
+.partner{font-size:16px;font-weight:bold;color:#000000;padding:0px;margin:39px 0px 12px 30px;}
+.fontboxspan1notfree{padding:2px 0 2px 42px;float:left;}
+#footer{height:123px;margin:0px;padding:0px;background:url(http://www.altfonts.com/images/foottile.gif);}
+#foot{width:1005px;height:123px;background:url(http://www.altfonts.com/images/foot.gif) top left no-repeat;margin:0 auto;padding:0px;}
+#copyright{height:31px;padding:28px 0 0 118px;margin:0 0 0 27px;border-bottom:1px solid #c33636;font-size:14px;color:#4a1616;}
+code {
+	white-space: pre;
+	background-color: #eee;
+	display: block;
+	padding: 10px;
+	margin-bottom: 18px;
+	overflow: auto;
+}    
